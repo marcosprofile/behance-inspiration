@@ -1,0 +1,243 @@
+body {
+    font-family: "Nunito sans", "Open Sans", sans-serif;
+    background: #fff;
+    color: #0E0E0E;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+.blur-1 {
+    width: 400px;
+    height: 400px;
+    background: #B5A7F4;
+    filter: blur(160px);
+    margin: 0 80px 400px 0;
+}
+
+.blur-2 {
+    width: 400px;
+    height: 400px;
+    background: #B9D0FF;
+    filter: blur(160px);
+    margin: 400px 0 0 80px;
+}
+
+.mobile {
+    border: 10px solid #A3B1CC;
+    border-radius: 40px;
+    width: 380px;
+    height: 800px;
+    background-color: #EBEDF0;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: -30px 30px 18px rgba(0, 0, 0, 0.25);
+}
+
+.comeco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 35px;
+}
+
+.hora {
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 12px;
+}
+
+.battery {
+    margin-top: 6px;
+}
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 20px;;
+}
+
+.esquerda h1, p{
+    padding: 6px 0;
+    line-height: 0;
+}
+
+.esquerda h1 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.esquerda p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.direita img {
+    width: 60px;
+    height: 60px;
+    border-radius:60px;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #8B6BED 0%, #80B1FF 100%);
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.texto p {
+    line-height: 0;
+    font-size: 14px;
+}
+
+.texto h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    width: 200px;
+}
+
+.imagem img {
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+}
+
+.card button {
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 25px;
+    background-color: #fff;
+    margin-bottom: 8px;
+    color: #8C6AED;
+}
+
+.recommend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.recommend h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #A5A6AD;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+}
+
+.card-1, .card-2 {
+    background-color: #fff;
+    width: 120px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.card-interno {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exercicio {
+    max-width: 120px;
+}
+
+.exercicio img {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    padding: 2px 5px;
+    gap: 6px;
+    background-color: #8C6AED;
+    color: #fff;
+    position: absolute;
+    margin-top: 97px;
+    border-radius: 0px 6px 0px 6px;
+    font-size: 14px;
+}
+
+.info h1 {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.info h2 {
+    font-size: 12px;
+    font-weight: 500;
+    color: #737583;
+    line-height: 0;
+    padding-top: 5px;
+}
+
+.menu {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 340px;
+    padding: 18px 20px;
+    margin-top: 500px;
+    margin-left: -15px;
+    border-radius: 20px 20px 0 0;
+}
+
+.itens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #BCBEC6;
+}
+
+.home, .search, .meditation, .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #BCBEC6;
+    font-size: 12px;
+    font-weight: 400;
+    gap: 5px;
+}
+
+.home {
+    font-weight: 600;
+    color: #8C6AED;
+}

@@ -32,7 +32,7 @@ body {
     border-radius: 40px;
     width: 380px;
     height: 800px;
-    background-color: #EBEDF0;
+    background: linear-gradient(180deg, #F9FBFF 0%, #F0F2F6 100%);
     overflow: hidden;
     position: absolute;
     box-shadow: -30px 30px 18px rgba(0, 0, 0, 0.25);
@@ -124,11 +124,11 @@ body {
 }
 
 .card button {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     border: none;
-    border-radius: 6px;
-    padding: 10px 25px;
+    border-radius: 8px;
+    padding: 10px 30px;
     background-color: #fff;
     margin-bottom: 8px;
     color: #8C6AED;
